@@ -1,0 +1,76 @@
+/* Estilize o corpo da página */
+body {
+    background-image: url(/Moonlit\ Asteroid.jpg);
+    background-size: cover;
+}
+
+/* Estilize o título do carrossel */
+h1 {
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilize o container do carrossel */
+#myCarousel {
+    margin-top: 20px;
+}
+
+#myCarousel .carousel-inner .carousel-item img {
+    width: 100%; /* Defina a largura como 100% para preencher o contêiner */
+    max-height: 350px; /* Defina a altura máxima desejada */
+    object-fit: cover;}
+
+
+    /* Estilize o card */
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-image: url(/Midnight\ City.jpg);
+}
+
+/* Estilize a imagem do card */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Estilize o título do card */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #0ae711;
+}
+
+/* Estilize o texto do botão */
+
+.add-to-cart {
+    font-size: 14px;
+    background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%);
+    margin: 10px;
+    padding: 0 45px; /* Reduzir o preenchimento horizontal para centralizar o texto */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #555555;
+    border-radius: 10px;
+    display: block;
+    height: 50px;
+}
+
+.add-to-cart:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
